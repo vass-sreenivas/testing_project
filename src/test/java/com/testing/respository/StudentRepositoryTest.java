@@ -2,7 +2,7 @@ package com.testing.respository;
 
 import com.testing.model.Student;
 import org.junit.jupiter.api.BeforeAll;
-import org.junit.jupiter.api.Disable;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.TestInstance;
 import org.mockito.InjectMocks;
@@ -21,7 +21,7 @@ class StudentRepositoryTest {
     private StudentRepository studentRepository;
 
     @Test
-    @Disable
+    @Disabled
     void testFindByName(){
 
         System.out.println("Test findByName is called....");
@@ -33,7 +33,7 @@ class StudentRepositoryTest {
     }
 
     @BeforeAll
-    @Disable
+    @Disabled
     public void setUp() throws Exception{
         System.out.println("BeforeAll Called.......");
         MockitoAnnotations.initMocks(this);
