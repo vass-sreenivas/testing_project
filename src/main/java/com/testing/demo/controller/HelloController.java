@@ -1,6 +1,6 @@
-package com.testing.controller;
+package com.testing.demo.controller;
 
-import com.testing.model.Student;
+import com.testing.demo.model.Student;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RestController;
